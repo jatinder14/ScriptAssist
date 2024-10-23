@@ -1,0 +1,75 @@
+/* Example of custom styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .mission-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2196F3; /* Same as Mantine's primary color */
+  }
+  
+  .button-custom {
+    background-color: #1976D2;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .button-custom:hover {
+    background-color: #1565C0;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-custom {
+    border: 1px solid #E0F2FD;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skeleton-custom {
+    background-color: #BBDEFB;
+  }
+
+
+/* Styles for the main input */
+.custom-select {
+  border: 1px solid #1976D2;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.custom-select:hover {
+  border-color: #1565C0;
+}
+
+/* Styles for the dropdown */
+.custom-dropdown {
+  border-radius: 8px;
+  border: 1px solid #E0F2FD;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the options */
+.custom-option {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  color: black; /* Default text color */
+}
+
+.custom-option.selected {
+  background-color: #BBDEFB;
+  color: #1976D2;
+}
+
+.custom-option:hover {
+  background-color: #E3F2FD;
+}
