@@ -4,12 +4,12 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/ScriptAssist-UK.git
+   git clone https://github.com/yourusername/ScriptAssist.git
 
 2. Navigate to the project folder:
 
    ```bash
-   cd ScriptAssist-UK
+   cd ScriptAssist
 3. Install the required dependencies:
 
    ```bash
@@ -21,7 +21,9 @@
   The app should now be running on http://localhost:3000
 
 
-This project is to display and explore recent SpaceX launches. It includes features such as search, filter, sort, and pagination to navigate through the SpaceX missions efficiently. Users can also log in and view detailed information about each mission.
+## To login the default credentials are 
+- **username**: admin
+- **password**: password
 
 ## Features
 - **Search**: Users can search for SpaceX launches by mission name.
